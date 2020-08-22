@@ -1,0 +1,14 @@
+{{#each users}}
+        {{#if confirmed}}
+            <div class="bg-success text-white rounded px-3 py-2 mt-2">
+                <span>{{name}}</span>
+                <span>(count: {{count}})</span>
+            </div>
+
+            {{else}}
+                <div class="bg-danger text-white rounded px-3 py-2 mt-2">
+                    <span>{{name}}</span>
+                    <span>(count: {{count}})</span>
+                </div>
+        {{/if}}
+{{/each}}

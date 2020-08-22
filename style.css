@@ -1,0 +1,34 @@
+:root {
+    --theme-color: crimson;
+}
+
+
+header {
+    background-color: var(--theme-color);
+
+    display: grid;
+    /* grid-template-columns: repeat() */
+
+    /* width: calc(100% - 40px); */
+}
+
+main {
+    color: var(--theme-color);
+
+    /* appearance: none; */
+}
+
+.error {
+    box-shadow: 0 0 5px crimson;
+    border: 1px solid crimson;
+}
+
+#error {
+    color: crimson;
+    font-size: 15px;
+}
+.delete{
+	float: right;
+	cursor: pointer;
+	height: 100%;
+}
